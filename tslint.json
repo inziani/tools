@@ -1,0 +1,11 @@
+{
+  "extends":["tslint:latest"],
+  "linterOptions":{
+    "format":"verbose"
+  },
+  "rules":{
+    "eofline": false,
+    "no-console": false,
+    "prefer-cnst": false
+  }
+}
