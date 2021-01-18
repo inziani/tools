@@ -1,0 +1,16 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "TypeScript Compiler",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc-watch --onsuccess \"node dist/index.js\""
+  },
+  "author": "Valentine Robai Inziani",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "tsc-watch": "^4.2.9"
+  }
+}
